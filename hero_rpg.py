@@ -26,7 +26,6 @@ def main():
     hero = Hero(10, 5)
     goblin = Goblin(6, 2)
     
-    
     while goblin.health > 0 and hero.health > 0:
         print("You have {} health and {} power.".format(hero.health, hero.power))
         print("The goblin has {} health and {} power.".format(goblin.health, goblin.power))
